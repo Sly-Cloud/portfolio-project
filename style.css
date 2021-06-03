@@ -1,0 +1,44 @@
+body {
+  background-image: url(/images/header-shapes\ mobile.png);
+}
+
+.status-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: #6070FF;
+  display: flex;
+  align-items: flex-start;
+}
+
+h3 {
+  color: #172B4D;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.intro {
+  color: #344563;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  color: #7F8CFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
