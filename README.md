@@ -1,2 +1,50 @@
-# past-project-exercise
-This is the second Microverse project. We have to recreate/copy a former project and review our codes. This helps us get familiar with code reviewing process.
+<h2>Portfolio sneak peak</h2> 
+
+<h6>This is my first portfolio project in Microverse</h6>
+
+![portfolio](https://user-images.githubusercontent.com/69966775/120628297-6ece9600-c45c-11eb-8db4-c44e86816227.png)
+
+Additional description about the project and its features.
+
+<h1>Built With</h1>
+
+* HTML
+* CSS
+* Linters
+* Figma
+
+Getting Started
+<h2> To get a local copy of this file:</h2>
+
+1. Go to [repo](https://github.com/Sly-Cloud/portfolio-project).
+2. Click the **code** button (usually in green background)
+3. Open terminal on your local machine
+4. Enter `<git clone>`
+
+<h1>Authors</h1>
+
+👤 Adonike Sylvester
+
+* Github: [@Sly-Cloud](https://github.com/Sly-Cloud)
+* Twitter: [@SylvesterHills](https://twitter.com/SylvesterHills)
+* LinkedIn: [Sylvester Adonike](https://www.linkedin.com/in/sylvester-adonike/)
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Sly-Cloud/portfolio-project/issues).
+
+<h3>Show your support</h3>
+
+Give a ⭐️ if you like this project!
+
+<h3>Acknowledgments</h3>
+
+*Hat tip to anyone whose code was used
+*Inspiration
+*etc
+
+📝 License
+
+This project is MIT licensed.
