@@ -40,7 +40,7 @@ header ul {
   width: 100px;
 }
 
-h1 {
+.background h1 {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -61,10 +61,9 @@ h1 {
 }
 
 .connect {
-  color: #7f8ffF;
+  color: #7f8fff;
   text-decoration: none;
-  margin: 10 0px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
