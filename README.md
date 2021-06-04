@@ -13,6 +13,10 @@ Additional description about the project and its features.
 * Linters
 * Figma
 
+## Live demo
+
+[live demo](https://sly-cloud.github.io/portfolio-project/)
+
 Getting Started
 <h2> To get a local copy of this file:</h2>
 
