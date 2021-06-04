@@ -2,7 +2,13 @@
 
 <h6>This is my first portfolio project in Microverse</h6>
 
-![Portfolio (2)](https://user-images.githubusercontent.com/69966775/120782479-f3371c80-c521-11eb-8db1-19d3d236bc32.png)
+![Portfolio (2)](https://user-images.githubusercontent.com/69966775/120867396-bef74680-c589-11eb-9033-af8687716d03.png)
+![porfolio1](https://user-images.githubusercontent.com/69966775/120867393-bd2d8300-c589-11eb-8cdb-0b666406bed7.png)
+![portfolio2](https://user-images.githubusercontent.com/69966775/120867399-bf8fdd00-c589-11eb-8643-a198cce81ddc.png)
+![portfolio3](https://user-images.githubusercontent.com/69966775/120867400-c0c10a00-c589-11eb-85ee-e47bf4ce4198.png)
+![portfolio5](https://user-images.githubusercontent.com/69966775/120867401-c1f23700-c589-11eb-9bd3-746dc2adf2aa.png)
+![about](https://user-images.githubusercontent.com/69966775/120867369-ae46d080-c589-11eb-9ffd-b2162b7d6c50.png)
+![languages](https://user-images.githubusercontent.com/69966775/120867351-a555ff00-c589-11eb-9de1-fb3fa68fd821.png)
 
 Additional description about the project and its features.
 
