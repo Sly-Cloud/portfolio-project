@@ -17,10 +17,6 @@ li {
   background-size: cover;
 }
 
-.background h1 {
-  padding-top: 90px;
-}
-
 .status-bar {
   display: flex;
   justify-content: center;
@@ -46,6 +42,7 @@ header ul {
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
+  padding-top: 90px;
   display: flex;
   align-items: center;
 }
