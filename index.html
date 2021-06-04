@@ -6,37 +6,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-  <script src="https://use.fontawesome.com/92bb8db824.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
   <title>Portfolio Sneak Peak</title>
 </head>
 <body>
-  <div>
+  <img class="status-bar" src="images/status-bar.png" alt="Portfolio Status Bar">
+  <div class="main">    
     <header>
-      <img class="status-bar" src="images/status-bar.png" alt="Portfolio Status Bar">
       <nav>
-        <div class="logo">
-          <img src="images/app-bar.png" alt="Logo image">
-          <i class="fa fa-bars"></i>
-        </div>
+        <ul>
+          <li>
+            <a href="#">
+              <img class="logo" src="images/mylogo.png" alt="Home">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img class="menu" src="images/menu.svg" alt="Menu">
+            </a>
+          </li>
+        </ul>
       </nav>
     </header>
-    <section>
-      <h1>I’m Sylvester,
-          Glad to see you!
+    <section class="background">
+      <h1>I’m Sylvester, 
+        Glad to see you!
       </h1>
       <p class="intro">
         I’m a software developer! I can help you build a product, 
         feature or website. Look through some of my work and experience! 
         If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
-      <h3>LET'S CONNECT</h3>
+      <a href="#" class="connect">LET'S CONNECT</a>
       <div class="social-icons">
         <ul>
           <li>
             <a href="#">
               <img src="images/twitter.png" alt="Connect on Twitter">
-           </a>
+            </a>
           </li>
           <li>
             <a href="#">
@@ -62,7 +70,7 @@
             </a>
           </li>
         </ul>
-        </div>
+      </div>
     </section>        
   </div>
 </body>

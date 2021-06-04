@@ -2,7 +2,7 @@
 
 <h6>This is my first portfolio project in Microverse</h6>
 
-![portfolio](https://user-images.githubusercontent.com/69966775/120628297-6ece9600-c45c-11eb-8db4-c44e86816227.png)
+![Portfolio (2)](https://user-images.githubusercontent.com/69966775/120782479-f3371c80-c521-11eb-8db1-19d3d236bc32.png)
 
 Additional description about the project and its features.
 
