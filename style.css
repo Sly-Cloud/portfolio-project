@@ -377,7 +377,7 @@ button {
   line-height: 24px;
 }
 
-.language .skill {
+.skill {
   color: #000;
   display: flex;
   flex-direction: row;
