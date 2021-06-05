@@ -113,40 +113,14 @@ h3 {
   display: inline-block;
 }
 
-.seeport a {
-  color: #396df2;
-  font-family: 'Poppins', Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-align: center;
-  display: flex;
-  align-items: center;
-}
-
-.getresume a {
-  color: #396df2;
-  font-family: 'Poppins', Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  padding-left: 15px;
-}
-
 .social-icons li a {
   padding-right: 10px;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
@@ -161,7 +135,7 @@ h3 {
   padding-top: 16px;
 }
 
-.card-head h1 {
+.card-head h2 {
   color: #172b4d;
   font-family: 'Poppins', Helvetica, sans-serif;
   font-style: normal;
@@ -243,15 +217,26 @@ h3 {
   padding: 4px 12px;
 }
 
-.seeport {
-  display: flex;
-  justify-content: start;
+button {
+  background-color: #fff;
+  border: 1px solid #398df2;
+  border-radius: 6px;
   margin: 20px;
-  border: 1px solid #afb7ff;
-  box-sizing: border-box;
-  border-radius: 16px;
-  padding: 16px 20px;
-  width: 150px;
+}
+
+.seeport {
+  color: #396df2;
+  font-family: 'Poppin', Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 0.03em;
 }
 
 .seeport:hover {
@@ -328,19 +313,6 @@ h3 {
   padding-right: 10px;
 }
 
-.getresume {
-  display: flex;
-  justify-content: start;
-  margin-top: 30px;
-  margin-bottom: 25px;
-  margin-left: 30px;
-  border: 1px solid #afb7ff;
-  box-sizing: border-box;
-  border-radius: 16px;
-  padding: 16px 8px;
-  width: 200px;
-}
-
 .getresume:hover {
   color: #fff;
   background-color: #000fff;
@@ -392,7 +364,7 @@ h3 {
   padding: 9px 12px;
 }
 
-.extra-skill .frame {
+.frame .ul {
   color: #000;
   display: flex;
   flex-direction: row;
@@ -405,7 +377,7 @@ h3 {
   line-height: 24px;
 }
 
-.extra-skill .skill {
+.frame .skill {
   color: #000;
   display: flex;
   flex-direction: row;
