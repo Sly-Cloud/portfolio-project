@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -14,6 +14,10 @@ li {
 hr {
   width: 80%;
   margin-bottom: 30px;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .background {
@@ -49,7 +53,7 @@ header ul {
 
 .background h1 {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -60,7 +64,7 @@ header ul {
 
 .intro {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   display: flex;
@@ -71,7 +75,7 @@ header ul {
 .connect {
   color: #7f8fff;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -93,7 +97,7 @@ header ul {
 
 h3 {
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -137,7 +141,7 @@ h3 {
 
 .card-head h2 {
   color: #172b4d;
-  font-family: 'Poppins', Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -153,7 +157,7 @@ h3 {
 
 .card-info .canopy {
   color: #344563;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-size: 13px;
   font-weight: 600;
@@ -169,7 +173,7 @@ h3 {
 
 .head-item {
   color: #7a869a;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -178,7 +182,7 @@ h3 {
 
 .card-para {
   color: #344563;
-  font-family: 'Poppins', Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -228,7 +232,7 @@ button {
 
 .seeport {
   color: #396df2;
-  font-family: 'Poppin', Helvetica, sans-serif;
+  font-family: "Poppin", Helvetica, sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -256,7 +260,7 @@ button {
 
 .about-me {
   color: #172b4d;
-  font-family: 'Poppins', Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -266,7 +270,7 @@ button {
 
 .about-text p {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   padding-left: 26px;
@@ -278,7 +282,7 @@ button {
 .connect2 {
   color: #7f8fff;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -333,7 +337,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -350,7 +354,7 @@ button {
 }
 
 .java span {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -371,7 +375,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -384,7 +388,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -392,4 +396,61 @@ button {
   line-height: 24px;
   padding-bottom: 30px;
   border-bottom: 4px solid #dfe1e6;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/Contactback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12px;
+}
+
+.contact {
+  background-image: url(images/contact\ form\ background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  padding: 82px 12px 45px 12px;
+}
+
+.contact h2 {
+  color: #fff;
+}
+
+.contact-p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  color: #172b4d;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  margin-left: 0;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
