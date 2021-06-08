@@ -409,9 +409,6 @@ button {
 }
 
 footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image: url(images/Contactback.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -444,6 +441,7 @@ footer {
 form {
   display: flex;
   flex-direction: column;
+  padding: 0 12px;
 }
 
 input,
