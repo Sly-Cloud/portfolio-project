@@ -187,26 +187,27 @@ h3 {
 }
 
 .card-lang ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: 20px 20px;
 }
 
 .card-lang .html {
+  float: left;
   background-color: #ebebff;
   border-radius: 8px;
   width: 53px;
   height: 24px;
   padding: 4px 12px;
+  margin-right: 5px;
 }
 
 .card-lang .css {
+  float: left;
   background-color: #ebebff;
   border-radius: 8px;
   width: 45px;
   height: 24px;
   padding: 4px 12px;
+  margin-right: 5px;
 }
 
 .card-lang .js {
@@ -215,6 +216,7 @@ h3 {
   width: 89px;
   height: 24px;
   padding: 4px 12px;
+  float: left;
 }
 
 button {
