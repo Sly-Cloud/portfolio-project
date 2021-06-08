@@ -1,4 +1,4 @@
-<h2>Portfolio sneak peak</h2> 
+<h2>Portfolio sneak peak</h2>
 
 <h6>This is my first portfolio project in Microverse</h6>
 
@@ -14,16 +14,17 @@ Additional description about the project and its features.
 
 <h1>Built With</h1>
 
-* HTML
-* CSS
-* Linters
-* Figma
+- HTML
+- CSS
+- Linters
+- Figma
 
 ## Live demo
 
 [live demo](https://sly-cloud.github.io/portfolio-project/)
 
 Getting Started
+
 <h2> To get a local copy of this file:</h2>
 
 1. Go to [repo](https://github.com/Sly-Cloud/portfolio-project).
@@ -35,9 +36,9 @@ Getting Started
 
 👤 Adonike Sylvester
 
-* Github: [@Sly-Cloud](https://github.com/Sly-Cloud)
-* Twitter: [@SylvesterHills](https://twitter.com/SylvesterHills)
-* LinkedIn: [Sylvester Adonike](https://www.linkedin.com/in/sylvester-adonike/)
+- Github: [@Sly-Cloud](https://github.com/Sly-Cloud)
+- Twitter: [@SylvesterHills](https://twitter.com/SylvesterHills)
+- LinkedIn: [Sylvester Adonike](https://www.linkedin.com/in/sylvester-adonike/)
 
 🤝 Contributing
 
@@ -53,7 +54,7 @@ Give a ⭐️ if you like this project!
 
 *Hat tip to anyone whose code was used
 *Inspiration
-*etc
+\*etc
 
 📝 License
 
