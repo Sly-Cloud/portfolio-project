@@ -494,13 +494,12 @@ textarea {
   .card-img {
     width: 544px;
     height: 448px;
-
-    /* transition: transform; */
+    transition: transform;
   }
 
-  /* .card-img:hover {
+  .card-img:hover {
     transform: scale(1.02);
-  } */
+  }
 
   .card {
     display: grid;
