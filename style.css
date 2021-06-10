@@ -401,12 +401,12 @@ footer {
   line-height: 28px;
   font-weight: normal;
   font-style: normal;
-  /* transition: transform; */
+  transition: transform;
 }
 
-/* .contact-p:hover {
+.contact-p:hover {
   transform: translateX(8px);
-} */
+}
 
 form {
   display: flex;
