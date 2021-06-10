@@ -237,7 +237,7 @@ button {
   text-decoration: none;
   padding: 10px;
   letter-spacing: 0.03em;
-  /* transition: background-color 700ms; */
+  transition: background-color 700ms;
 }
 
 .seeport:hover {
