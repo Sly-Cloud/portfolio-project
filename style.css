@@ -237,7 +237,7 @@ button {
   text-decoration: none;
   padding: 10px;
   letter-spacing: 0.03em;
-  /* transition: background-color 700ms; */
+  transition: background-color 700ms;
 }
 
 .seeport:hover {
@@ -401,12 +401,12 @@ footer {
   line-height: 28px;
   font-weight: normal;
   font-style: normal;
-  /* transition: transform; */
+  transition: transform;
 }
 
-/* .contact-p:hover {
+.contact-p:hover {
   transform: translateX(8px);
-} */
+}
 
 form {
   display: flex;
@@ -494,6 +494,7 @@ textarea {
   .card-img {
     width: 544px;
     height: 448px;
+
     /* transition: transform; */
   }
 
