@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -11,9 +11,17 @@ li {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 hr {
   width: 80%;
   margin-bottom: 30px;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .background {
@@ -24,9 +32,20 @@ hr {
   margin: 20px;
 }
 
+.navlink {
+  display: none;
+}
+
+.works {
+  display: grid;
+  grid-row-gap: 88px;
+  padding: 114px 24px;
+  background-color: transparent;
+}
+
 .status-bar {
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  max-width: 320px;
 }
 
 .main {
@@ -34,22 +53,26 @@ hr {
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
   margin: 20px;
 }
 
-header ul {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+.logo {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  color: #6070ff;
 }
 
-.logo {
-  width: 100px;
+.logo h2 {
+  text-decoration: none;
 }
 
 .background h1 {
   color: #172b4d;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -60,7 +83,7 @@ header ul {
 
 .intro {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   display: flex;
@@ -69,9 +92,9 @@ header ul {
 }
 
 .connect {
-  color: #7f8fff;
+  color: #7f8cff;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -93,7 +116,7 @@ header ul {
 
 h3 {
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
@@ -126,34 +149,31 @@ h3 {
   box-sizing: border-box;
   border-radius: 16px;
   margin: 24px;
+  padding: 10px;
 }
 
 .card-img {
   width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-top: 16px;
 }
 
 .card-head h2 {
   color: #172b4d;
-  font-family: 'Poppins', Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  padding-left: 20px;
 }
 
 .card-info {
   display: flex;
-  justify-content: space-between;
-  padding: 0 20px;
+  gap: 20px;
+  align-items: center;
 }
 
 .card-info .canopy {
   color: #344563;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-size: 13px;
   font-weight: 600;
@@ -169,7 +189,7 @@ h3 {
 
 .head-item {
   color: #7a869a;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -178,62 +198,40 @@ h3 {
 
 .card-para {
   color: #344563;
-  font-family: 'Poppins', Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  padding: 0 20px;
 }
 
-.card-lang ul {
+.card-lang {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 20px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.card-lang .html {
+.card-tag {
   background-color: #ebebff;
   border-radius: 8px;
-  width: 53px;
-  height: 24px;
-  padding: 4px 12px;
-}
-
-.card-lang .css {
-  background-color: #ebebff;
-  border-radius: 8px;
-  width: 45px;
-  height: 24px;
-  padding: 4px 12px;
-}
-
-.card-lang .js {
-  background-color: #ebebff;
-  border-radius: 8px;
-  width: 89px;
-  height: 24px;
-  padding: 4px 12px;
+  padding: 4px 0 4px 7px;
 }
 
 button {
   background-color: #fff;
   border: 1px solid #398df2;
   border-radius: 6px;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .seeport {
   color: #396df2;
-  font-family: 'Poppin', Helvetica, sans-serif;
+  font-family: "Poppin", Helvetica, sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   text-decoration: none;
   padding: 10px;
   letter-spacing: 0.03em;
@@ -252,56 +250,35 @@ button {
   color: #c1c7d0;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
 .about-me {
   color: #172b4d;
-  font-family: 'Poppins', Helvetica, sans-serif;
+  font-family: "Poppins", Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 70px;
-  padding-left: 24px;
 }
 
 .about-text p {
   color: #344563;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  padding-left: 26px;
   display: flex;
   justify-content: center;
   line-height: 24px;
-}
-
-.connect2 {
-  color: #7f8fff;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: left;
-  padding-left: 24px;
-}
-
-.connect2:hover {
-  color: #6070ff;
-}
-
-.connect2:focus {
-  color: #008000;
-}
-
-.connect2:active {
-  color: #c1c7d0;
 }
 
 .social-icons2 {
   display: flex;
   justify-content: flex-start;
   margin-top: 10px;
-  padding-left: 38px;
 }
 
 .social-icons2 li {
@@ -331,11 +308,11 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  margin: 36px;
+  margin: 36px 36px 36px 20px;
   line-height: 24px;
 }
 
@@ -348,7 +325,7 @@ button {
 }
 
 .java span {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
@@ -369,7 +346,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -382,7 +359,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -390,4 +367,199 @@ button {
   line-height: 24px;
   padding-bottom: 30px;
   border-bottom: 4px solid #dfe1e6;
+}
+
+footer {
+  background-image: url(images/Contactback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 12px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(images/contact\ form\ background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  padding: 82px 12px 45px 12px;
+}
+
+.contact h2 {
+  color: #fff;
+  margin-top: 90px;
+}
+
+.contact-p {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  width: 100%;
+}
+
+input,
+textarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #172b4d;
+  font-family: "Poppins", Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  background-color: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 20px 3px 15px 16px;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  font-family: "Poppins", Helvetica, sans-serif;
+  margin-left: 0;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* desktop devices */
+@media only screen and (min-width: 992px) {
+  .status-bar {
+    display: none;
+  }
+
+  .logo {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .navlink {
+    display: flex;
+    gap: 32px;
+  }
+
+  .primary-menu {
+    color: #344563;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .background h1 {
+    color: #091e42;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  }
+
+  .intro {
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    display: flex;
+    line-height: 28px;
+  }
+
+  .card-img {
+    width: 544px;
+    height: 448px;
+  }
+
+  .card {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    padding: 24px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .invert {
+    order: -1;
+  }
+
+  .about {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    padding: 10%;
+  }
+
+  .about-desk h1 {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    line-height: 52px;
+    font-style: normal;
+    font-weight: bold;
+    color: #091e42;
+  }
+
+  .desk-about-section {
+    display: flex;
+    width: 100%;
+  }
+
+  .java {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .language {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .language ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 25%;
+  }
+
+  footer {
+    padding: 79px 74px 48px 74px;
+  }
+
+  form div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form,
+  input,
+  textarea {
+    padding: 20px 90px;
+  }
 }
