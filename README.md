@@ -22,7 +22,7 @@ Additional description about the project and its features.
 
 ## Live demo
 
-[live demo](https://sly-cloud.github.io/portfolio-project/)
+This is the [live demo](https://sly-cloud.github.io/portfolio-project/) of my portfolio project.
 
 Getting Started
 
