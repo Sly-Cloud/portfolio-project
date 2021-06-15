@@ -73,7 +73,7 @@ header {
   text-decoration: none;
 }
 
-.background h1 {
+.background h2 {
   color: #172b4d;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -471,7 +471,7 @@ textarea {
     display: none;
   }
 
-  .background h1 {
+  .background h2 {
     color: #091e42;
     font-family: "Poppins", sans-serif;
     font-style: normal;
