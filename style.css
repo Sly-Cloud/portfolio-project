@@ -22,6 +22,7 @@ hr {
 
 .center-text {
   text-align: center;
+  color: #fff;
 }
 
 .background {
@@ -190,7 +191,7 @@ h3 {
 }
 
 .head-item {
-  color: #7a869a;
+  color: #3e3e3f;
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
