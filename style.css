@@ -46,8 +46,6 @@ hr {
   font-size: 22px;
 }
 
-/* works */
-
 .hamburger-menu {
   cursor: pointer;
 }
@@ -137,10 +135,6 @@ main.active .cancel-menu {
   grid-row-gap: 88px;
   padding: 114px 24px;
   background-color: transparent;
-}
-
-.main {
-  margin: 20px;
 }
 
 header {
