@@ -37,6 +37,97 @@ hr {
   display: none;
 }
 
+.menu {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+/* works */
+
+.hamburger-menu {
+  cursor: pointer;
+}
+
+.hamburger-menu > div {
+  margin-bottom: 3px;
+}
+
+.hamburger-menu > div:last-child {
+  margin-bottom: 0;
+}
+
+.nav-list {
+  display: none;
+}
+
+.menuToggle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0.85;
+  mix-blend-mode: multiply;
+  background: #6070ff;
+  display: none;
+  visibility: hidden;
+  pointer-events: all;
+}
+
+.nav-list-mobile {
+  list-style: none;
+  padding: 100px 0 0 24px;
+  margin: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.nav-list-mobile li {
+  font-size: 32px;
+  margin: 0 0 40px 0;
+  position: relative;
+}
+
+.nav-list-mobile li a {
+  color: #fff;
+}
+
+.cancel-menu {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  z-index: 1000;
+  display: none;
+  visibility: hidden;
+}
+
+main.active .main-content,
+main.open-modal .main-content {
+  filter: blur(3px);
+  overflow: hidden;
+}
+
+main.active .menuToggle,
+main.active .nav-list-mobile,
+main.active .cancel-menu {
+  display: block;
+  visibility: visible;
+}
+
+.close-icon {
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
 .works {
   display: grid;
   grid-row-gap: 88px;
@@ -467,7 +558,7 @@ textarea {
     line-height: 20px;
   }
 
-  .menu {
+  #hamburger {
     display: none;
   }
 
