@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  position: relative;
+}
+
 hr {
   width: 80%;
   margin-bottom: 30px;
