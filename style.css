@@ -111,7 +111,7 @@ hr {
 
 main.active .main-content,
 main.open-modal .main-content {
-  filter: blur(3px);
+  filter: blur(4px);
   overflow: hidden;
 }
 
@@ -133,11 +133,6 @@ main.active .cancel-menu {
   grid-row-gap: 88px;
   padding: 114px 24px;
   background-color: transparent;
-}
-
-.status-bar {
-  width: 100%;
-  max-width: 320px;
 }
 
 .main {
