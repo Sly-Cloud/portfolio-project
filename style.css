@@ -22,6 +22,7 @@ hr {
 
 .center-text {
   text-align: center;
+  color: #fff;
 }
 
 .background {
@@ -72,7 +73,7 @@ header {
   text-decoration: none;
 }
 
-.background h1 {
+.background h2 {
   color: #172b4d;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -94,7 +95,7 @@ header {
 }
 
 .connect {
-  color: #7f8cff;
+  color: #2230d2;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -190,7 +191,7 @@ h3 {
 }
 
 .head-item {
-  color: #7a869a;
+  color: #3e3e3f;
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -470,7 +471,7 @@ textarea {
     display: none;
   }
 
-  .background h1 {
+  .background h2 {
     color: #091e42;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -573,6 +574,6 @@ textarea {
   .form,
   input,
   textarea {
-    padding: 20px 90px;
+    width: 100%;
   }
 }
