@@ -108,13 +108,10 @@ hr {
   right: 50px;
   z-index: 1000;
   display: none;
-  visibility: hidden;
 }
 
-main.active .main-content,
-main.open-modal .main-content {
-  filter: blur(4px);
-  overflow: hidden;
+main.active .main-content {
+  filter: blur(5px);
 }
 
 main.active .menuToggle,
