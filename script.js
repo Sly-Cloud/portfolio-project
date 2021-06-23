@@ -197,3 +197,17 @@ const form = document.querySelector('#contacts');
 const error = document.querySelector('#error');
 const fullName = document.querySelector('#username');
 const email = document.querySelector('#useremail');
+
+form.addEventListener('submit', (event) => {
+  if (email.value.trim() !== email.value.trim().toLowerCase()) {
+    error.style.opacity = 1;
+    error.textContent = 'Please, all email characters should be lowercase';
+    event.preventDefault();
+  } else if (fullName.value.trim() !== fullName.value.trim().toLowerCase()) {
+    error.style.opacity = 1;
+    error.textContent = 'Please, add only lower character case';
+    event.preventDefault();
+  } else {
+    error.style.opacity = 0;
+  }
+});
