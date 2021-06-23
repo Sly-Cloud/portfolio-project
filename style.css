@@ -207,7 +207,182 @@ main.active .cancel-menu {
   visibility: visible;
 }
 
-/* NEW CODE FOR STYLING */
+.projects {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-section {
+  padding: 0 24px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 100px;
+}
+
+.post-container {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 18px;
+  padding: 16px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid #4c38a5af;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.image {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  transition: transform 0.5s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 18px 0;
+  box-sizing: border-box;
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons2 li {
+  list-style: none;
+  display: inline-block;
+}
+
+.skills {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.skills > li {
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+.skills > li:last-child {
+  margin-right: 0;
+}
+
+.proficiency {
+  color: #344563;
+  box-sizing: border-box;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #c1c7d0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.year,
+.role {
+  color: #7a869a;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  box-sizing: border-box;
+}
+
+.tags {
+  padding: 0;
+  margin-bottom: 20px;
+  list-style: none;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.tag {
+  padding: 4px 12px 4px 12px;
+  font-size: 12px;
+  margin-right: 12px;
+  background-color: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.btn-project {
+  outline: none;
+  background: #fff;
+  border: 1px solid #6070ff;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 8px;
+  transition:
+    color 0.5s ease-in-out,
+    background 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out;
+  cursor: pointer;
+  box-sizing: border-box;
+  pointer-events: auto;
+}
+
+.btn-project:hover {
+  color: #fff;
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.logo {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 20px;
+  color: #6070ff;
+  transition: transform 1s ease-in 6s;
+  transform: rotate(360deg);
+}
+
+.logo h2 {
+  text-decoration: none;
+}
+
+.background h2 {
+  color: #172b4d;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+}
 
 .intro {
   color: #344563;
@@ -586,6 +761,24 @@ textarea {
     display: none;
   }
 
+  .modal {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .modal-content-body {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .modal-content-body .text {
+    padding-right: 30px;
+  }
+
+  .modal-btns .btn-project {
+    padding: 5px;
+  }
+  
   .background h2 {
     color: #091e42;
     font-family: "Poppins", sans-serif;
