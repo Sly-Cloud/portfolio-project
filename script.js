@@ -192,3 +192,8 @@ for (let i = 0; i < projects.length; i += 1) {
 closepopup.addEventListener('click', () => {
   toggleModal();
 });
+
+const form = document.querySelector('#contacts');
+const error = document.querySelector('#error');
+const fullName = document.querySelector('#username');
+const email = document.querySelector('#useremail');
