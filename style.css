@@ -682,7 +682,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(images/contact\ form\ background.svg);
+  background-image: url(images/contactformback.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -707,13 +707,6 @@ button {
   transform: translateX(8px);
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  padding: 0 24px;
-  width: 100%;
-}
-
 input,
 textarea {
   display: flex;
@@ -727,8 +720,9 @@ textarea {
   background-color: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  padding: 20px 3px 15px 16px;
+  padding: 15px 3px 15px 16px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .contact-button {
@@ -738,6 +732,15 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.error {
+  color: #f00;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 5px;
+  opacity: 0;
+  font-weight: 700;
 }
 
 /* desktop devices */
@@ -948,5 +951,14 @@ textarea {
   input,
   textarea {
     width: 100%;
+  }
+
+  .error {
+    font-size: 14px;
+  }
+
+  .home-indicator {
+    display: none;
+    visibility: hidden;
   }
 }
