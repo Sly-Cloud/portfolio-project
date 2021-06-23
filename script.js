@@ -46,7 +46,7 @@ const projects = [
     featuredImage: 'images/desk-back4.png',
     technologies: ['html', 'css', 'javascript'],
     liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink:'https://github.com/Sly-Cloud/portfolio-project',
+    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
   },
 
   {
@@ -61,7 +61,7 @@ const projects = [
     featuredImage: 'images/desk-back3.png',
     technologies: ['html', 'css', 'javascript'],
     liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink:'https://github.com/Sly-Cloud/portfolio-project',
+    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
   },
 
   {
@@ -76,7 +76,7 @@ const projects = [
     featuredImage: 'images/desk-back2.png',
     technologies: ['html', 'css', 'javascript'],
     liveLink: 'https://sly-cloud.github.io/portfolio-project/',
-    sourceLink:'https://github.com/Sly-Cloud/portfolio-project',
+    sourceLink: 'https://github.com/Sly-Cloud/portfolio-project',
   },
 
   {
@@ -189,6 +189,6 @@ for (let i = 0; i < projects.length; i += 1) {
   });
 }
 
-closePopup.addEventListener('click', () => {
+closepopup.addEventListener('click', () => {
   toggleModal();
 });
