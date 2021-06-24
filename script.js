@@ -197,6 +197,17 @@ const form = document.querySelector('#contacts');
 const error = document.querySelector('#error');
 const fullName = document.querySelector('#username');
 const email = document.querySelector('#useremail');
+const message = document.querySelector('#message');
+
+const inputKey = 'CONTACT';
+const inputDetails = localStorage.getItem(inputKey);
+
+if (inputDetails) {
+  const contact = JSON.parse(inputDetails);
+  fullName.value = contact.fullName;
+  email.value = contact.email;
+  message.value = contact.message;
+}
 
 form.addEventListener('submit', (event) => {
   if (email.value.trim() !== email.value.trim().toLowerCase()) {
@@ -208,6 +219,12 @@ form.addEventListener('submit', (event) => {
     error.textContent = 'Please, add only lower character case';
     event.preventDefault();
   } else {
+    const contactObj = {
+      fullName: fullName.value,
+      email: email.value,
+      message: message.value,
+    };
+    localStorage.setItem(inputKey, JSON.stringify(contactObj));
     error.style.opacity = 0;
   }
 });
