@@ -216,7 +216,11 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   } else if (fullName.value.trim() !== fullName.value.trim().toLowerCase()) {
     error.style.opacity = 1;
-    error.textContent = 'Please, add only lower character case';
+    error.textContent = 'Please, add only lower character case in your name';
+    event.preventDefault();
+  } else if (message.value.trim() !== message.value.trim().toLowerCase()) {
+    error.style.opacity = 1;
+    error.textContent = 'Please, only lower character case are allowed in messages';
     event.preventDefault();
   } else {
     const contactObj = {
